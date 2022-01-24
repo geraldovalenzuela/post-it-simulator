@@ -1,0 +1,81 @@
+body {
+    background-color: #666;
+}
+
+h2, p {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.note {
+    list-style: none;
+    text-decoration: none;
+    color: #111;
+    display: block;
+    height: 15em;
+    width: 15em;
+    padding: 1em;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    margin: 1em;
+    float: left;
+}
+
+.note h2 {
+    font-size:120%;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+
+.note p {
+    font-family:"Reenie Beanie",arial,sans-serif;
+    font-size:160%;
+}
+
+.note-button-div {
+    float: right;
+}
+
+.note-button {
+    background: transparent;
+    border: none !important;
+}
+
+.normalColor {
+    background-color: #FFFFCC;
+}
+
+.importantColor {
+    background-color: #EC7063;
+}
+
+.note {
+    -webkit-transform:rotate(-6deg);
+    -o-transform:rotate(-6deg);
+    -moz-transform:rotate(-6deg);
+}
+
+.note:nth-child(even) {
+    -o-transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    position:relative;
+    top:5px;
+  }
+
+  .note:nth-child(3n) {
+    -o-transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    position:relative;
+    top:-5px;
+  }
+
+  .note:nth-child(5n) {
+    -o-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    position:relative;
+    top:-10px;
+  }
+
+  

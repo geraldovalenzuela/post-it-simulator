@@ -1,0 +1,6 @@
+{
+  "short_name": "Post It",
+  "name": "Post It Simulator",
+  "start_url": ".",
+  "display": "standalone"
+}
